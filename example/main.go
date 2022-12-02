@@ -1,14 +1,3 @@
-# Casbin Postgres Watcher
----
-A WatcherEX implementation for [Casbin](https://github.com/casbin/casbin) based on [PostgreSQL](https://www.postgresql.org)
-
-## Installation
-
-  go get github.com/IguteChung/casbin-psql-watcher
-
-## Example
-
-```go
 package main
 
 import (
@@ -41,9 +30,3 @@ func main() {
 	// wait for callback.
 	fmt.Scanln()
 }
-```
-
-## Dependency
-
-- [Casbin](https://github.com/casbin/casbin)
-- [pgx](https://github.com/jackc/pgx)
